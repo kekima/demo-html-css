@@ -675,11 +675,22 @@ a {
 	color: #6c6c6c;
 }
 
-.footer-text {
+.footer-text, .footer-email {
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 1.57;
 	color: #212121;
+}
+
+.footer-email {
+	border-bottom: 1px solid transparent;
+}
+
+.footer-email:hover {
+	/*display: inline-block;*/
+	border-bottom: 1px solid #212121;
+	/*font-weight: 400;*/
+	/*transform: scale(1.1);*/
 }
 
 .footer-column-block {
@@ -708,7 +719,7 @@ a {
 }
 
 .input-subscribe {
-	width: 330px;
+	width: 310px;
 	height: 48px;
 	border: solid 1px #d9dee1;
 	background-color: #ffffff;
@@ -720,10 +731,14 @@ a {
 	color: #6c6c6c;
 }
 
+.input-subscribe:focus {
+	border: solid 1px #999999;
+}
+
 .email-icon {
 	position: absolute;
 	top: 16px;
-	right: 0;
+	right: 20px;
 	font-size: 20px;
 	color: #6c6c6c;
 }
@@ -743,7 +758,7 @@ a {
 	justify-content: space-between;
 	align-items: center;
 	height: 50px;
-	margin: 0 100px 30px 80px;
+	margin: 0 90px 30px 80px;
 	justify-self: flex-end;
 }
 
