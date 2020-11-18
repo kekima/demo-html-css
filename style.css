@@ -431,6 +431,7 @@ a {
 .trending-img {
 	opacity: 80%;
 	transition-duration: 0.3s;
+	outline: 1px solid transparent;
 }
 
 .trending-img:hover {
@@ -562,6 +563,7 @@ a {
 .metro-excl-img {
 	opacity: 80%;
 	transition-duration: 0.3s;
+	outline: 1px solid transparent;
 }
 
 .metro-excl-img:hover {
@@ -682,12 +684,15 @@ a {
 
 .footer-column-block {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	/*flex-wrap: wrap;*/
+}
+
+.footer-column-inner-block {
+	width: 50%;
 }
 
 .footer-column-block-text {
-	display: block;
+	display: inline-block;
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 1.86;
@@ -709,7 +714,7 @@ a {
 	background-color: #ffffff;
 	outline: none;
 	padding-left: 20px;
-	padding-right: 20px;
+	padding-right: 45px;
 	font-size: 14px;
 	font-weight: 300;
 	color: #6c6c6c;
@@ -718,7 +723,7 @@ a {
 .email-icon {
 	position: absolute;
 	top: 16px;
-	right: 25px;
+	right: 0;
 	font-size: 20px;
 	color: #6c6c6c;
 }
@@ -767,5 +772,15 @@ a {
 .social-icon:hover {
 	color: #212121;
 	transform: rotate(5deg) scale(1.15);
+	transition-duration: 0.3s;
+}
+
+.exclusive-block-1, .exclusive-block-2, .metro-excl-block-1 {
+	opacity: 90%;
+	transition-duration: 0.3s;
+}
+
+.exclusive-block-1:hover, .exclusive-block-2:hover, .metro-excl-block-1:hover{
+	opacity: 100%;
 	transition-duration: 0.3s;
 }
