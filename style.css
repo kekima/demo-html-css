@@ -841,9 +841,14 @@ a.menu-link:active {
 
 .footer-email:active,
 .footer-column-block-text:active,
+.footer-legal-text:active,
 .social-icon:active {
 	color: red;
 	transition-duration: 0.1s;
+}
+
+.social-icon:active {
+	transform: rotate(5deg) scale(1.25);
 }
 
 /* contact.html */
