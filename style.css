@@ -1157,7 +1157,7 @@ a.menu-link:active {
 	align-items: center;
 }
 
-.details-image-small {
+.details-image-small, .details-image-small-selected {
 	opacity: 80%;
 	width: 70px;
 	height: 70px;
